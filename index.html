@@ -1,0 +1,72 @@
+<!DOCTYPE html>  
+<html>
+    <head>  
+        <meta charset="utf-8" />
+        <title>Matcher</title>
+        <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyBYerjUzgkUKRLHqpDoO3U7yfz1EvEqPsw", 
+            authDomain: "project-5909056531228157934.firebaseapp.com",
+            databaseURL: "https://project-5909056531228157934.firebaseio.com",
+            storageBucket: "project-5909056531228157934.appspot.com",
+          };
+          firebase.initializeApp(config);
+          var database = firebase.database();      
+        </script>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        
+        <style>
+            body {
+                background-color: slategrey;
+                color: white;
+                font-size: 40px;
+            }
+            .bigbutton {
+                border: 5px solid black;
+                text-decoration: none;
+                padding: 20px 30px;
+                border-radius: 20px;
+                background-color: white;
+                font-size: 35px;
+            }
+            
+            
+        </style>
+        <script type="text/javascript" src="phaser.min.js"></script>
+        <script type="text/javascript" src="simon.js"></script>
+        <meta name="viewpoer" content="initial-scale=1.0" />
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+
+    <body><br>
+        <div class="container">
+        
+        <center>SELECT GAME:
+        <br><br>
+            <div class="row">
+                <div class="col-xs-6">
+                    <a href="Matcher/index.html" style="color: black; text-decoration: none;">
+                        <div class="bigbutton" style="color: black; text-decoration: none;"><br>
+                        MATCHING<br><br>
+                            <img src="rabbitpair.png" height='100px'><br><br></div>
+                    </a><br><br></div>
+                <div class="col-xs-6">
+                    <a href="Simon/index.html" style="color: black; text-decoration: none;">
+                        <div class="bigbutton" style="color: black; text-decoration: none;"><br>
+                        SIMON SAYS<br><br>
+                            <img src="speechbubble.png" height='100px'><br><br></div>
+                    </a><br><br></div>
+            
+            </div>
+                </center>
+        </div>
+    </body>  
+</html>  
